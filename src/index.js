@@ -1,1 +1,3 @@
-console.log('JS');
+async function app() {
+    await fetch('wfm');
+}
