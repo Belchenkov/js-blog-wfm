@@ -1,3 +1,3 @@
-async function app() {
-    await fetch('wfm');
-}
+import { HeaderComponent } from './components/header.component';
+
+const header = new HeaderComponent('header');
